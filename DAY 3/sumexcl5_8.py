@@ -1,0 +1,9 @@
+s=list(map(int,input().split(',')))
+sm=sum(s[:s.index(5)])+sum(s[s.index(8)+1:])
+print(sum(s[:s.index(5)])+sum(s[s.index(8)+1:]))
+x=int("".join(list(map(str,s[s.index(5):s.index(8)+1]))))
+print(sm+x)
+##################3
+s=list(map(int,input().split(',')))
+print(sum(s[:s.index(5)])+sum(s[s.index(8)+1:])+int("".join(list(map(str,s[s.index(5):s.index(8)+1])))))
+#########################
